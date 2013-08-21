@@ -1,0 +1,58 @@
+#lightbox{
+  background-color:#eee;
+  padding-bottom: 16px;
+  padding-top: 10px;
+  border-bottom: 2px solid #666;
+  border-right: 2px solid #666;
+  }
+#lightboxDetails{
+  font-size: 0.8em;
+  padding-top: 0.4em;
+  } 
+#lightboxCaption{ float: left;margin-left: 5px; font-size: 20px;}
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(c:/js/lightbox/img/overlay.png);
+opacity: 0.8; }
+
+* html #overlay{
+  background-color: #333;
+  back\ground-color: transparent;
+  background-image: url(blank.gif);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+
+  }
+
+div#keyboardMsg {
+text-decoration: none;
+background: #fff;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #070606;
+padding: 6px;
+position: absolute;
+bottom: 1px;
+right: 7px;
+display: inline-block;
+text-decoration: none !important;
+width: auto;
+height: auto;
+cursor: pointer;
+color: #444 !important;
+font-weight: bold;
+background: #fff;
+z-index: 9999;
+text-transform: uppercase;
+}
+
+div#keyboardMsg a{
+  color:#444;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
